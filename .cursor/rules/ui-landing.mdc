@@ -1,0 +1,15 @@
+---
+description: Orientações de UI ao editar a landing React
+globs: index.html,src/**/*.{css,tsx,ts}
+alwaysApply: false
+---
+
+# UI da landing
+
+- Mudança visual relevante segue o conceito em `docs/ART_DIRECTION.md`; se ainda não existir, criar pela skill `design-landing`.
+- Manter hierarquia clara no primeiro viewport: marca → headline → apoio → CTAs.
+- Alterar identidade visual pelos tokens `@theme` / `:root` em `src/styles/main.css`.
+- Preferir tipografia + whitespace a cards/sombras/pills.
+- Reutilizar o bank em `src/components/` antes de buscar novos kits; escolher pela seção "Escolha por clima" e ajustar os valores default ao conceito.
+- CTAs principais apontam para WhatsApp / mailto / redes.
+- Após mudança visual, conferir com prints reais em 390px e 1440px — não só "de cabeça".
